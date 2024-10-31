@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Parte #1
+        let nombre = 'Sebastian Marin'; document.write("Nombre:  "+nombre);
+        
+        let edad = 23; document.write("Edad:  "+edad);
+        let esEstudiante = true; document.write("Es estudiante?:  "+esEstudiante);
+  
+        nombre = 'Juan Esteban'; document.write("Nombre:  "+nombre);
+        edad = 18; document.write("Edad:  "+edad);
+        esEstudiante = false; document.write("Es estudiante?:  "+esEstudiante);
+
+
+        //Parte #2
+        let a = 5; document.write("Numero A =   "+a);
+        let b = 6; document.write("Numero B =   "+b);
+        let c;
+        c = a + b; document.write("Resultado de la suma =   "+c);
+        c = a * b; document.write("Resultado de la multiplicacion =   "+c);
+        c = a/b; document.write("Resultado de la divicion =   "+c);
+        if (a == b) {
+            document.write("A Y B son iguales");
+        }else{
+            document.write("A Y B no son iguales");
+        }
+
+
+        //Parte #3
+        let saludo = `Bienvenido, ${nombre}!`;
+        document.write(saludo);
+        let esMayorEdad = true;
+        let tieneLicencia = false;
+        if (esMayorEdad && tieneLicencia) {
+            document.write("");
+        }else{
+            console.log("No puede conducir :(");
+        }
+
+    </script>
+    
+</body>
+</html>
